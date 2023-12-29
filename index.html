@@ -182,6 +182,7 @@
 						<h1>Imar & Acai</h1>
 						<p style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</p>
 						<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
+						<h2><span></span></h2>
 
 						<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
 					</div>
@@ -843,6 +844,16 @@
 		else
 			window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
 	}
+</script>
+
+<script>
+	const urlParams = new URLSearchParams(window.location.search);
+	const nama = urlParams.get('nama');
+	console.log(nama);
+
+	const namaContainer = document.querySelector('.overlay h2 span');
+	namaContainer.innerText = nama;
+
 </script>
 
 <script type="text/javascript">
