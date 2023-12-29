@@ -179,10 +179,9 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<h1>Imar & Acai</h1>
+						<h1>Imar & Acai<span></span></h1>
 						<p style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</p>
 						<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
-						<h2><span></span></h2>
 
 						<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
 					</div>
@@ -851,7 +850,7 @@
 	const nama = urlParams.get('nama');
 	console.log(nama);
 
-	const namaContainer = document.querySelector('.overlay h2 span');
+	const namaContainer = document.querySelector('.overlay h1 span');
 	namaContainer.innerHTML = nama;
 
 </script>
