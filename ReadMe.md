@@ -9,21 +9,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">
-    <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/abdrhmn1601/Undangan_Imar_Acai/">
+    <img src="images/circledua.png" alt="Logo" width="120" height="120">
   </a>
 
   <h1 align="center">The Wedding</h1>
 
   <p align="center">
-    <strong>Rehan & Maulidan</strong>
+    <strong>Imar & Acai</strong>
     <br />
-    <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
+    <a href="https://github.com/abdrhmn1601/Undangan_Imar_Acai/">Explore the Invitation ! »</a>
     <br />
     <br />
-    <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
+    <a href="https://github.com/abdrhmn1601">Maryanti</a>
     ·
-    <a href="https://github.com/maulidannashuha">Maulidan Nashuha</a>
+    <a href="https://github.com/abdrhmn1601">Suwardi</a>
   </p>
 </div>
 
