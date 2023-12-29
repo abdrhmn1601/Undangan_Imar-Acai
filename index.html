@@ -184,7 +184,9 @@
 						<h2 id="ara">Kepada<span>Bapak, </span></h2>
 						<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
 						<script>
-							document.getElementById("ara").innerHTML = "jvasce";
+							const urlParams = new URLSearchParams(window.location.search);
+							const nama = urlParams.get('nama');
+							document.getElementById("ara").innerHTML = nama;
 						</script>
 						<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
 					</div>
@@ -193,13 +195,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript">
-		const urlParams = new URLSearchParams(window.location.search);
-		const nama = urlParams.get('nama');
-		
-		const namaContainer = document.querySelector('.ara span');
-		namaContainer.innerText = nama;
-	</script>
+
 
 	<div id="fh5co-header">
 		<div class="container">
